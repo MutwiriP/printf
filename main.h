@@ -53,7 +53,7 @@ int flags, int width, int precision, int size);
 int print_octal(va_list types, char buffer[],
 int flags, int width, int precision, int size);
 int print_hexadecimal(va_list types, char buffer[],
-int flags, int width, int precision, int size);
+	int flags, int width, int precision, int size);
 int print_hexa_upper(va_list types, char buffer[],
 int flags, int width, int precision, int size);
 int print_hexa(va_list types, char map_to[],
@@ -94,4 +94,3 @@ int is_digit(char);
 long int convert_size_number(long int num, int size);
 long int convert_size_unsgnd(unsigned long int num, int size);
 #endif /* MAIN_H */
-
